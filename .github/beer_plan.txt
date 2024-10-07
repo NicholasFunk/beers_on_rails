@@ -9,7 +9,7 @@ Model: Beer (relate to a table called beers)
     - name:string
     - price:decimal
     - description:text
-    -company_id:integer(FK for company)
+    - company_id:integer(FK for company)
     - create_at:timestamp
     - updated_at:timestamp
 

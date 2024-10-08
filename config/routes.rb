@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   resources :beers
-  resources :company, only: %i[index show]
+  resources :companies, only: %i[index show]
 
   root to: "companies#index"
 
